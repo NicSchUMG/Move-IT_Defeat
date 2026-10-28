@@ -1,0 +1,29 @@
+The MOVE-IT DEFEAT dataset contains synthetic patient-level data, generated from pseudonymised patient-level data collected over six survey waves, and includes individuals with long COVID, ex-COVID, and no COVID.
+- Rows represent patients.
+- Columns represent assessed variables (ending indicates survey wave).
+
+#Included survey waves:
+_A = Defeat 1 survey
+_B = Defeat 2 survey
+_C = Defeat 3 survey
+_D = Defeat 4 survey
+_rheuma = Rhematism survey
+_OAC = Outpatient Assessment Clinic survey
+
+
+#Included questionnaires:
+- EQ-5D (_A, _B, _C, _D, _rheuma)
+- FAS (_B, _C, _D, _rheuma)
+- GAD-7 (_B, _C, _D)
+- IMET (_A, _C)
+- PHQ-9 (_B, _C)
+- PSPQ (_B, _D)
+- EFK (_B)
+- PSS (_B)
+- RS13 (_B)
+- DePaul PEM (_D)
+
+
+#Other included variables:
+- demographic data
+- health data (pre-existing diseases, Long-Covid symptoms, Covid infections & vaccinations)
